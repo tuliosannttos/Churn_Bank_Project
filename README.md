@@ -277,6 +277,7 @@ Machine Learning
 Engenharia de Dados
 Automação de Processos
 Business Intelligence
+
 📬 Contato
 
 📧 tulio-320hotmail.com
@@ -284,6 +285,7 @@ Business Intelligence
 🔗 https://www.linkedin.com/in/túlio-santos-b65720a4/
 
 🐙 https://github.com/tuliosannttos
+
 
 ⭐ Destaques do Projeto
 
