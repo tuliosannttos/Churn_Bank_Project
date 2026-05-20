@@ -48,14 +48,21 @@ Análise das métricas de desempenho e capacidade preditiva.
 Extração de insights estratégicos para o negócio.
 
 📂 Estrutura do Projeto
+
 📦 churn-bank-prediction
 │
+
 ├── 📄 Customer-Churn-Records.csv
+
 ├── 📄 resultado_churn.csv
+
 ├── 📄 modelo_xgboost.pkl
+
 ├── 📄 Untitled.ipynb
+
 ├── 📄 requirements.txt
 └── 📄 README.md
+
 🛠️ Tecnologias Utilizadas
 🔹 Linguagem
 Python
@@ -257,13 +264,6 @@ Benefícios para o Negócio
 
 ✅ Aplicação prática de Ciência de Dados
 
-🌐 Melhorias Futuras
-
-
-
-Abra:
-
-Untitled.ipynb
 
 👨‍💻 Autor
 Tulio Santos
