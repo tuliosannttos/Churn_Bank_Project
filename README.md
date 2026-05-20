@@ -204,6 +204,7 @@ Inclui métricas importantes como:
 Precision
 Recall
 F1-Score
+
 🔹 Matriz de Confusão
 confusion_matrix(y_test, y_pred)
 
