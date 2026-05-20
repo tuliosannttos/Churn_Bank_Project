@@ -61,11 +61,13 @@ Extração de insights estratégicos para o negócio.
 ├── 📄 Untitled.ipynb
 
 ├── 📄 requirements.txt
+
 └── 📄 README.md
 
+
 🛠️ Tecnologias Utilizadas
-🔹 Linguagem
-Python
+🔹 Linguagem Python
+
 🔹 Bibliotecas Principais
 Pandas
 NumPy
