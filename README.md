@@ -241,10 +241,15 @@ O projeto demonstra como Machine Learning pode gerar valor estratégico no setor
 Benefícios para o Negócio
 
 ✅ Antecipação de churn
+
 ✅ Redução de perdas financeiras
+
 ✅ Apoio à tomada de decisão
+
 ✅ Inteligência sobre comportamento de clientes
+
 ✅ Estratégias de retenção mais eficientes
+
 ✅ Aplicação prática de Ciência de Dados
 
 🌐 Melhorias Futuras
@@ -285,7 +290,7 @@ Business Intelligence
 
 🔗 https://www.linkedin.com/in/túlio-santos-b65720a4/
 
-🐙 
+🐙 https://github.com/tuliosannttos
 
 ⭐ Destaques do Projeto
 
