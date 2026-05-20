@@ -149,10 +149,15 @@ O XGBoost é um dos algoritmos mais poderosos para dados tabulares e problemas d
 Principais Vantagens
 
 ✅ Alta performance preditiva
+
 ✅ Excelente capacidade de generalização
+
 ✅ Redução de overfitting
+
 ✅ Treinamento rápido
+
 ✅ Identificação de relações complexas
+
 ✅ Amplamente utilizado no mercado e competições de Data Science
 
 ⚙️ Como o XGBoost Funciona
@@ -254,26 +259,12 @@ Benefícios para o Negócio
 
 🌐 Melhorias Futuras
 
-Possíveis evoluções do projeto:
 
-Deploy com Streamlit
-API com Flask/FastAPI
-Otimização de hiperparâmetros
-Pipeline automatizado
-Monitoramento do modelo
-Deploy em nuvem
-Implementação de MLOps
-▶️ Como Executar o Projeto
-Clone o repositório
-git clone https://github.com/seuusuario/churn-bank-prediction.git
-Instale as dependências
-pip install -r requirements.txt
-Execute o Jupyter Notebook
-jupyter notebook
 
 Abra:
 
 Untitled.ipynb
+
 👨‍💻 Autor
 Tulio Santos
 
