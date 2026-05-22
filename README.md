@@ -22,7 +22,7 @@ Avaliação e Interpretação do Modelo
 
 Geração de Insights para Tomada de Decisão
 
-##***2. Problema de Negócio***
+***##2. Problema de Negócio***
 2.1 Contexto
 O setor bancário enfrenta uma alta competitividade, onde reter clientes existentes é tão crucial quanto adquirir novos. A perda de clientes (churn) impacta diretamente a receita e aumenta os custos de aquisição.
 
