@@ -1,9 +1,7 @@
-🏦 Projeto de Previsão de Churn de Clientes - Banco
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/XGBoost-Classifier-orange
-https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen
+#Projeto de Previsão de Churn de Clientes - Banco
 
-📋 1. Descrição
+
+#1. Descrição
 Este é um projeto end-to-end de Machine Learning para prever a evasão de clientes (churn) em uma instituição financeira. O objetivo é identificar clientes com alta probabilidade de deixar o banco, permitindo a criação de ações de retenção estratégicas.
 
 O projeto segue as etapas do CRISP-DM:
