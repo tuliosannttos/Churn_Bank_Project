@@ -9,19 +9,19 @@ Este é um projeto end-to-end de Machine Learning para prever a evasão de clien
 
 O projeto segue as etapas do CRISP-DM:
 
-Entendimento do Negócio
+- Entendimento do Negócio
 
-Coleta e Limpeza dos Dados
+- Coleta e Limpeza dos Dados
 
-Análise Exploratória (EDA)
+- Análise Exploratória (EDA)
 
-Feature Engineering
+- Feature Engineering
 
-Modelagem e Seleção do Algoritmo (XGBoost)
+- Modelagem e Seleção do Algoritmo (XGBoost)
 
-Avaliação e Interpretação do Modelo
+- Avaliação e Interpretação do Modelo
 
-Geração de Insights para Tomada de Decisão
+- Geração de Insights para Tomada de Decisão
 
 
 
