@@ -3,7 +3,7 @@
 
 
 
-**1. Descrição**
+# 1. Descrição
 
 Este é um projeto end-to-end de Machine Learning para prever a evasão de clientes (churn) em uma instituição financeira. O objetivo é identificar clientes com alta probabilidade de deixar o banco, permitindo a criação de ações de retenção estratégicas.
 
