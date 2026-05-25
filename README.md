@@ -104,15 +104,14 @@ python
 {
     
 'n_estimators': 300,
-
 'learning_rate': 0.05,
-    'max_depth': 6,
-    'subsample': 0.8,
-    'colsample_bytree': 0.8,
-    'random_state': 42,
-    'eval_metric': 'logloss'
+'max_depth': 6,
+'subsample': 0.8,
+'colsample_bytree': 0.8,
+'random_state': 42,
+'eval_metric': 'logloss'
 }
-📉# 8. Avaliação do Modelo e Resultados de Negócio
+# 📉#8. Avaliação do Modelo e Resultados de Negócio
 Após o treinamento, o modelo foi avaliado no conjunto de teste, gerando os seguintes resultados:
 
 ## 8.1 Métricas de Performance
