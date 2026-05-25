@@ -202,7 +202,7 @@ xgboost (Modelo de Machine Learning)
 
 joblib (Persistência do modelo)
 
-# 12. 🌐 Deploy da Aplicação
+# 🌐 12. Deploy da Aplicação
 
 Este projeto foi disponibilizado utilizando o Streamlit Cloud, permitindo a interação com o modelo em tempo real através de uma interface web.
 
