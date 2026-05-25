@@ -206,8 +206,8 @@ joblib (Persistência do modelo)
 
 Este projeto foi disponibilizado utilizando o Streamlit Cloud, permitindo a interação com o modelo em tempo real através de uma interface web.
 
-🔗 Acesse a aplicação:
 <img width="1748" height="672" alt="streamlit table" src="https://github.com/user-attachments/assets/896f7010-d4a4-47df-9308-f24c8c6dfbde" />
+🔗 Acesse a aplicação:
 http://localhost:8501/
 
 
