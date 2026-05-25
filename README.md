@@ -208,6 +208,7 @@ Este projeto foi disponibilizado utilizando o Streamlit Cloud, permitindo a inte
 
 🔗 Acesse a aplicação:
 http://localhost:8501/
+<img width="1748" height="672" alt="streamlit table" src="https://github.com/user-attachments/assets/896f7010-d4a4-47df-9308-f24c8c6dfbde" />
 
 # 📌 13. Conclusão
 O projeto atingiu seu objetivo principal, entregando um modelo de Machine Learning (XGBoost) robusto e acionável. Com uma acurácia de 86% e uma AUC de 0.86, o modelo consegue identificar com boa confiança os clientes com maior propensão à evasão.
