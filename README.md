@@ -25,11 +25,12 @@ O projeto segue as etapas do CRISP-DM:
 
 
 
-**2. Problema de Negócio**
-2.1 Contexto
+# 2. Problema de Negócio
+## 2.1 Contexto
+
 O setor bancário enfrenta uma alta competitividade, onde reter clientes existentes é tão crucial quanto adquirir novos. A perda de clientes (churn) impacta diretamente a receita e aumenta os custos de aquisição.
 
-2.2 Questão de Negócio
+## 2.2 Questão de Negócio
 A instituição financeira precisa reduzir sua taxa de evasão. Para isso, deseja identificar proativamente os clientes com maior risco de deixar o banco, antes que a saída se concretize.
 
 O desafio é: como prever o churn com base nos dados demográficos, de transação e perfil dos clientes?
