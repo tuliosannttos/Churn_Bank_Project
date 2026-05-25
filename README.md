@@ -111,7 +111,7 @@ python
 'random_state': 42,
 'eval_metric': 'logloss'
 }
-# 📉#8. Avaliação do Modelo e Resultados de Negócio
+# 📉# 8. Avaliação do Modelo e Resultados de Negócio
 Após o treinamento, o modelo foi avaliado no conjunto de teste, gerando os seguintes resultados:
 
 ## 8.1 Métricas de Performance
