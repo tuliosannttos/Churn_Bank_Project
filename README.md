@@ -164,7 +164,7 @@ e
 ^
  sporcliente,reter30 1.2 milhão** no próximo semestre.
 
-⚙️# 9. Importância das Variáveis
+# ⚙️ 9. Importância das Variáveis
 As variáveis mais importantes para o modelo foram:
 
 Complain (Reclamação): A mais influente por uma grande margem. Clientes que registraram reclamações quase certamente irão sair.
@@ -175,7 +175,7 @@ Age (Idade): A idade é um forte preditor para este conjunto de dados.
 
 IsActiveMember (Membro Ativo): Inatividade é um forte sinal de alerta.
 
-🚀# 10. Como Reproduzir o Projeto
+# 🚀 10. Como Reproduzir o Projeto
 Clone o repositório:
 
 bash
@@ -187,7 +187,7 @@ pip install -r requirements.txt
 Execute o Jupyter Notebook:
 Navegue até o arquivo Untitled.ipynb e execute as células sequencialmente.
 
-🛠️# 11. Ferramentas Utilizadas
+# 🛠️ 11. Ferramentas Utilizadas
 Linguagem: Python 3.8+
 
 Bibliotecas:
@@ -202,14 +202,14 @@ xgboost (Modelo de Machine Learning)
 
 joblib (Persistência do modelo)
 
-📌 12. Conclusão
+# 📌 12. Conclusão
 O projeto atingiu seu objetivo principal, entregando um modelo de Machine Learning (XGBoost) robusto e acionável. Com uma acurácia de 86% e uma AUC de 0.86, o modelo consegue identificar com boa confiança os clientes com maior propensão à evasão.
 
 A principal descoberta de negócio é a confirmação de que clientes que reclamaram têm uma probabilidade altíssima de sair, apontando uma oportunidade imediata de criação de um workflow de "retenção de última milha" no SAC.
 
 Os próximos passos incluem o deploy deste modelo via API para que possa ser consumido por ferramentas de CRM, permitindo a automação das campanhas de retenção.
 
-📋 13. Próximos Passos & Melhorias Futuras
+# 📋 13. Próximos Passos & Melhorias Futuras
 Deploy do Modelo: Criar uma API simples (usando Flask ou FastAPI) para disponibilizar o modelo para outros times.
 
 Novos Ciclos do CRISP: Coletar mais dados (ex: tempo desde a última interação) para refinar as previsões.
@@ -218,8 +218,8 @@ Balanceamento de Classes: Aplicar técnicas como SMOTE para lidar com o desbalan
 
 Teste de Outros Algoritmos: Avaliar o desempenho do Random Forest e Redes Neurais para comparação.
 
-👥 14. Autor
-Seu Nome
+# 👥 14. Autor
+Tulio Santos
 
 LinkedIn: https://linkedin.com/in/túlio-santos-b65720a4/
 
