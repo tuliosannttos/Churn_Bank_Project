@@ -45,23 +45,23 @@ O objetivo do projeto é fornecer um modelo de Machine Learning que classifique 
 - Alocar recursos de forma mais eficiente, evitando gastos com clientes satisfeitos.
 
 # 📊 4. Coleta dos Dados
-Os dados utilizados neste projeto são de natureza simulada, mas representam um cenário real de uma instituição financeira. O dataset (Customer-Churn-Records.csv) contém 10.000 registros de clientes e as seguintes features:
+Os dados utilizados neste projeto são de natureza simulada, mas representam um cenário real de uma instituição financeira. A base de dados foi extraída da plataforma Kaggle (https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn/data). O dataset (Customer-Churn-Records.csv) contém 10.000 registros de clientes e as seguintes features:
 
 - Feature	Descrição
-- RowNumber	Índice da linha no arquivo
-- CustomerId	Identificador único do cliente
-- Surname	Sobrenome do cliente
-- CreditScore	Pontuação de crédito
-- Geography	Localização geográfica (França, Espanha, Alemanha)
-- Gender	Gênero (Masculino, Feminino)
-- Age	Idade do cliente
-- Tenure	Tempo como cliente do banco (anos)
-- Balance	Saldo atual na conta
-- NumOfProducts	Número de produtos contratados
-- HasCrCard	Possui cartão de crédito? (1 = Sim / 0 = Não)
-- IsActiveMember	Membro ativo? (1 = Sim / 0 = Não)
-- EstimatedSalary	Salário estimado
-- Exited	Target (Variável Alvo): Cliente saiu? (1 = Sim / 0 = Não)
+- RowNumber:	Índice da linha no arquivo
+- CustomerId:	Identificador único do cliente
+- Surname: Sobrenome do cliente
+- CreditScore:	Pontuação de crédito
+- Geography:	Localização geográfica (França, Espanha, Alemanha)
+- Gender:	Gênero (Masculino, Feminino)
+- Age:	Idade do cliente
+- Tenure:	Tempo como cliente do banco (anos)
+- Balance:	Saldo atual na conta
+- NumOfProducts:	Número de produtos contratados
+- HasCrCard:	Possui cartão de crédito? (1 = Sim / 0 = Não)
+- IsActiveMember:	Membro ativo? (1 = Sim / 0 = Não)
+- EstimatedSalary:	Salário estimado
+- Exited	Target: (Variável Alvo): Cliente saiu? (1 = Sim / 0 = Não)
 
 # 🧹 5. Limpeza e Preparação dos Dados
 Nesta etapa realizamos:
