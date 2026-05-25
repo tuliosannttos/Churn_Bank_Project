@@ -71,10 +71,10 @@ Remoção de Colunas: Colunas que poderiam causar data leakage ou que não agreg
 
 Codificação: Variáveis categóricas (Geography, Gender, Card Type) foram transformadas em formato numérico utilizando LabelEncoder do scikit-learn.
 
-📈 6. Análise Exploratória (EDA) & Feature Engineering
+📈# 6. Análise Exploratória (EDA) & Feature Engineering
 A EDA nos permitiu entender o comportamento dos clientes e criar novas variáveis para melhorar o poder de predição do modelo.
 
-6.1 Feature Engineering
+## 6.1 Feature Engineering
 Foram criadas novas features com base nas relações de negócio:
 
 Saldo_Atividade: Relação entre o saldo e a inatividade (Balance / (IsActiveMember + 1)). Clientes inativos com alto saldo podem ser um sinal de alerta.
@@ -83,18 +83,18 @@ Produtos_Idade: Número de produtos em relação à idade (NumOfProducts / Age).
 
 Score_Idade: Pontuação de crédito em relação à idade (CreditScore / Age).
 
-6.2 Insights Iniciais (Hipóteses)
+## 6.2 Insights Iniciais (Hipóteses)
 Produtos: Clientes com apenas 1 produto são mais propensos a sair por não estarem engajados.
 
 Idade: Clientes mais jovens (faixa dos 30-40 anos) podem ter maior mobilidade e propensão a trocar de banco.
 
 Atividade: Clientes inativos têm um risco de churn significativamente maior, independentemente do saldo.
 
-🧠 7. Modelagem de Dados & Machine Learning
-7.1 Separação Treino-Teste
+🧠# 7. Modelagem de Dados & Machine Learning
+## 7.1 Separação Treino-Teste
 Os dados foram divididos em 80% para treino e 20% para teste, mantendo a proporção da variável alvo (estratificação).
 
-7.2 Algoritmo Selecionado: XGBoost Classifier
+## 7.2 Algoritmo Selecionado: XGBoost Classifier
 Optamos pelo XGBoost devido à sua alta performance em problemas de classificação com dados estruturados e sua robustez contra overfitting.
 
 Hiperparâmetros do modelo:
@@ -109,16 +109,16 @@ python
     'random_state': 42,
     'eval_metric': 'logloss'
 }
-📉 8. Avaliação do Modelo e Resultados de Negócio
+📉# 8. Avaliação do Modelo e Resultados de Negócio
 Após o treinamento, o modelo foi avaliado no conjunto de teste, gerando os seguintes resultados:
 
-8.1 Métricas de Performance
+## 8.1 Métricas de Performance
 Métrica	Valor
 Acurácia	86.10%
 AUC ROC	0.8613
 A AUC de 0.861 demonstra que o modelo tem excelente capacidade de distinguir um cliente que vai sair de um que vai ficar.
 
-8.2 Tradução para o Negócio
+## 8.2 Tradução para o Negócio
 Aplicando o modelo a todos os clientes da base de teste, o resultado foi:
 
 Das 2.000 transações analisadas, o modelo identificou 407 clientes com alto risco de evasão.
@@ -164,7 +164,7 @@ e
 ^
  sporcliente,reter30 1.2 milhão** no próximo semestre.
 
-⚙️ 9. Importância das Variáveis
+⚙️# 9. Importância das Variáveis
 As variáveis mais importantes para o modelo foram:
 
 Complain (Reclamação): A mais influente por uma grande margem. Clientes que registraram reclamações quase certamente irão sair.
@@ -175,7 +175,7 @@ Age (Idade): A idade é um forte preditor para este conjunto de dados.
 
 IsActiveMember (Membro Ativo): Inatividade é um forte sinal de alerta.
 
-🚀 10. Como Reproduzir o Projeto
+🚀# 10. Como Reproduzir o Projeto
 Clone o repositório:
 
 bash
@@ -187,7 +187,7 @@ pip install -r requirements.txt
 Execute o Jupyter Notebook:
 Navegue até o arquivo Untitled.ipynb e execute as células sequencialmente.
 
-🛠️ 11. Ferramentas Utilizadas
+🛠️# 11. Ferramentas Utilizadas
 Linguagem: Python 3.8+
 
 Bibliotecas:
