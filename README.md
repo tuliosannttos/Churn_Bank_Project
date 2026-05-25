@@ -35,34 +35,34 @@ A instituição financeira precisa reduzir sua taxa de evasão. Para isso, desej
 
 O desafio é: como prever o churn com base nos dados demográficos, de transação e perfil dos clientes?
 
-💡 3. Entendimento do Negócio
+💡# 3. Entendimento do Negócio
 O objetivo do projeto é fornecer um modelo de Machine Learning que classifique clientes como potenciais churners ou não. Com essa visibilidade, o time de marketing e relacionamento pode:
 
-Oferecer benefícios personalizados para aumentar o engajamento.
+- Oferecer benefícios personalizados para aumentar o engajamento.
 
-Realizar campanhas de retenção com foco nos clientes de alto risco.
+- Realizar campanhas de retenção com foco nos clientes de alto risco.
 
-Alocar recursos de forma mais eficiente, evitando gastos com clientes satisfeitos.
+- Alocar recursos de forma mais eficiente, evitando gastos com clientes satisfeitos.
 
-📊 4. Coleta dos Dados
+📊# 4. Coleta dos Dados
 Os dados utilizados neste projeto são de natureza simulada, mas representam um cenário real de uma instituição financeira. O dataset (Customer-Churn-Records.csv) contém 10.000 registros de clientes e as seguintes features:
 
-Feature	Descrição
-RowNumber	Índice da linha no arquivo
-CustomerId	Identificador único do cliente
-Surname	Sobrenome do cliente
-CreditScore	Pontuação de crédito
-Geography	Localização geográfica (França, Espanha, Alemanha)
-Gender	Gênero (Masculino, Feminino)
-Age	Idade do cliente
-Tenure	Tempo como cliente do banco (anos)
-Balance	Saldo atual na conta
-NumOfProducts	Número de produtos contratados
-HasCrCard	Possui cartão de crédito? (1 = Sim / 0 = Não)
-IsActiveMember	Membro ativo? (1 = Sim / 0 = Não)
-EstimatedSalary	Salário estimado
-Exited	Target (Variável Alvo): Cliente saiu? (1 = Sim / 0 = Não)
-🧹 5. Limpeza e Preparação dos Dados
+- Feature	Descrição
+- RowNumber	Índice da linha no arquivo
+- CustomerId	Identificador único do cliente
+- Surname	Sobrenome do cliente
+- CreditScore	Pontuação de crédito
+- Geography	Localização geográfica (França, Espanha, Alemanha)
+- Gender	Gênero (Masculino, Feminino)
+- Age	Idade do cliente
+- Tenure	Tempo como cliente do banco (anos)
+- Balance	Saldo atual na conta
+- NumOfProducts	Número de produtos contratados
+- HasCrCard	Possui cartão de crédito? (1 = Sim / 0 = Não)
+- IsActiveMember	Membro ativo? (1 = Sim / 0 = Não)
+- EstimatedSalary	Salário estimado
+- Exited	Target (Variável Alvo): Cliente saiu? (1 = Sim / 0 = Não)
+🧹# 5. Limpeza e Preparação dos Dados
 Nesta etapa realizamos:
 
 Verificação de Nulos: Confirmado que não há valores ausentes no dataset.
